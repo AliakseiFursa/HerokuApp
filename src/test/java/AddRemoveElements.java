@@ -3,6 +3,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class AddRemoveElements extends BaseTest{
+
     @Test
     public void addRemoveElements() {
         driver.get("http://the-internet.herokuapp.com/add_remove_elements/");
